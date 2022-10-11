@@ -17,6 +17,6 @@ bool CheckPallindrome (int num)
     return lastDigit == firstDigit && secondDigit == forthDigit;
 }
 
-if (CheckPallindrome(N)) Console.Write("да");
-else if (N > 99999 || N < 10000) Console.Write("не пятизначное число");
+if (CheckPallindrome(n)) Console.Write("да");
+else if (n > 99999 || n < 10000) Console.Write("не пятизначное число");
 else Console.Write("нет");
